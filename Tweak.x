@@ -1,7 +1,7 @@
 #import "Tweak.h"
 
 NSString *CSBStatusLabel;
-BOOL Enabled = YES;
+BOOL Enabled;
 
 HBPreferences *preferences;
 
@@ -16,7 +16,7 @@ HBPreferences *preferences;
          %orig(CSBStatusLabel);
    }
    else {
-       %orig(arg1);
+       	 %orig(arg1);
    }
 }
 
@@ -25,10 +25,10 @@ HBPreferences *preferences;
 %end /* end group */
 
 static void loadPrefs() {
-	preferences = [[HBPreferences alloc] initWithIdentifier:@"com.watchersgrim.citrussbpref"];
+	preferences = [[HBPreferences alloc] initWithIdentifier:@"com.watchersgrim.citrussb"];
 
 	[preferences registerBool:&Enabled default:YES forKey:@"kEnabled"];
-	[preferences registerObject:&CSBStatusLabel default:@"Default" forKey:@"kStatusBarLabel"];
+	[preferences registerObject:&CSBStatusLabel default:@"{Chronic0range}" forKey:@"kStatusBarLabel"];
 }
 
 %ctor {

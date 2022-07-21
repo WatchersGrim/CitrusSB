@@ -1,9 +1,9 @@
 Package: com.watchersgrim.citrussb
 Name: CitrusSB
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: A tweak to allow you to edit your carrier text.
 Maintainer: WatchersGrim
 Author: WatchersGrim
 Section: Tweaks
-Depends: mobilesubstrate, was.hbang.common (> 1.17)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.17)
