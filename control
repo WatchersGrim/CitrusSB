@@ -6,4 +6,4 @@ Description: A tweak to allow you to edit your carrier text.
 Maintainer: WatchersGrim
 Author: WatchersGrim
 Section: Tweaks
-Depends: mobilesubstrate, ws.hbang.common (>= 1.17)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
