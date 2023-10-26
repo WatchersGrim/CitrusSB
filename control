@@ -2,7 +2,7 @@ Package: com.watchersgrim.citrussb
 Name: CitrusSB
 Version: 0.0.3
 Architecture: iphoneos-arm
-Description: A tweak to allow you to edit your carrier text.
+Description: CitrusSB is a tweak that allows you to modify the carrier text for your iDevice. Allows use of text and emojis.*NOTE* MUST PRESS RETURN TO CLOSE KEYBOARD AND ALLOW CHANGES TO BE KEPT. 
 Maintainer: WatchersGrim
 Author: WatchersGrim
 Section: Tweaks
